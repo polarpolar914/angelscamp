@@ -88,6 +88,3 @@ def get_route_coordinates(start, end, api_key):
 # interval = 10
 # api_key = 'YOUR_T_MAP_API_KEY'
 # route_coordinates = get_route_coordinates(place_name_start, place_name_end, interval, api_key)
-
-route_coordinates = get_route_coordinates("안동한일아파트", "안동한일여고",  sk_api_key)
-print(route_coordinates)
